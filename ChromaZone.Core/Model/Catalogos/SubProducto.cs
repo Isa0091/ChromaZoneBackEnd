@@ -7,12 +7,12 @@ namespace ChromaZone.Core.Model.Catalogos
     /// <summary>
     /// Describe las medidas
     /// </summary>
-    public class Plantilla :RootEntity
+    public class SubProducto :Entity
     {
         /// <summary>
         /// 
         /// </summary>
-        public Plantilla()
+        public SubProducto()
         {
             Codigo = Guid.NewGuid();
         }
@@ -38,5 +38,9 @@ namespace ChromaZone.Core.Model.Catalogos
         /// Material
         /// </summary>
         public  Guid IdMaterial { get; set; }
+
+        public bool Activar { set; get; }
+        public decimal Precio { set; get; }
+        public decimal PrecioEspecial { set; get; }
     }
 }
