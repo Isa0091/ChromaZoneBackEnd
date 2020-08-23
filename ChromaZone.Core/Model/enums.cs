@@ -23,6 +23,7 @@ namespace ChromaZone.Core.Model
     {
         Pixels = 0,
         Milimetros = 1,
-        Centimetros = 2
+        Centimetros = 2,
+        pulgadas = 3
     }
 }
