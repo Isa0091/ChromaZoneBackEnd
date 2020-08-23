@@ -11,9 +11,9 @@ namespace ChromaZone.Core.Model.Imagenes
         /// </summary>
         public Guid IdEncabezado { get; set; }
         /// <summary>
-        /// Identificador de la plantilla
+        /// dimension de las imagenes
         /// </summary>
-        public Guid IdPlantilla { get; set; }
+        public TamanoImagen TamanoImagen { get; set; }
 
         /// <summary>
         /// url de la imagen asociada al detalle

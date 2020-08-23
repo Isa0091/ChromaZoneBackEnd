@@ -22,6 +22,9 @@ namespace ChromaZone.Core.Model.Catalogos
         public string Nombre { get; set; }
 
         public bool Activar { set; get; }
+        /// <summary>
+        /// SubProductos
+        /// </summary>
         public List<SubProducto> SubProductos { get; private set; }
     }
 }

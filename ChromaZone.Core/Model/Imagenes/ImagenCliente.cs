@@ -42,8 +42,18 @@ namespace ChromaZone.Core.Model.Imagenes
         /// Categoria
         /// </summary>
         public Guid IdCategoria { get; set; }
-
-
+        /// <summary>
+        /// id encabezado imagen
+        /// </summary>
+        public Guid IdEncabezadoImagen { get; set; }
+        /// <summary>
+        /// id producto
+        /// </summary>
+        public Guid IdProducto { get; set; }
+        /// <summary>
+        /// id sub-producto
+        /// </summary>
+        public Guid IdSubProducto { get; set; }
         /// <summary>
         /// Fecha de ingreso del registro
         /// </summary>

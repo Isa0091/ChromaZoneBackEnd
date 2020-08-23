@@ -41,15 +41,15 @@ namespace ChromaZone.Core.Model.Imagenes
         /// Fecha de ingreso del registro
         /// </summary>
         public DateTimeOffset FechaIngreso { get; set; }
-
         /// <summary>
-        /// Tipo de imagen
+        /// Id del diseno de la imagen
         /// </summary>
-        public TipoImagen TipoImagen { get; set; }
-
+        public Guid IdEstadoImagenDiseno { get; set; }
         /// <summary>
         /// Imagenes asociadas a este encabezado con medidas especificas
         /// </summary>
         public List<DetalleImagen> DetalleImagenes { get; set; }
+
+        public List<HistoricoEstadoImagen> HistoricoEstados { get; set; }
     }
 }

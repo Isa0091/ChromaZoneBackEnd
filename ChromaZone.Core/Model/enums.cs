@@ -26,4 +26,11 @@ namespace ChromaZone.Core.Model
         Centimetros = 2,
         pulgadas = 3
     }
+
+    public enum TamanoImagen
+    {
+        Pequeno = 0,
+        Mediano = 1,
+        Grande = 2
+    }
 }
